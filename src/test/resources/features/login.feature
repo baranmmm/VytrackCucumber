@@ -4,7 +4,7 @@ Feature: Login Functionality
   Scenario Outline: Login with different credentials
     Given the user navigates to login page
     When the user logged in with the username and password of the <rowindex> of excelfile
-    Then the user fullname should be same with the <rowindex> of excelfile
+#    Then the user fullname should be same with the <rowindex> of excelfile
 
     Examples:
       | rowindex |

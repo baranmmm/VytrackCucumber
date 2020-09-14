@@ -12,7 +12,7 @@ import java.util.List;
 
 public class LoginStepDefs {
 
-    ExcelUtil excelUtil=new ExcelUtil("src\\test\\resources\\Vytracktestdata.xlsx", "QA1-short");
+    ExcelUtil excelUtil=new ExcelUtil("src/test/resources/Vytracktestdata.xlsx", "QA1-short");
 
     @Given("the user navigates to login page")
     public void the_user_navigates_to_login_page() {
